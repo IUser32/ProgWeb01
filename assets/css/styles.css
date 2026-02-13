@@ -1,1 +1,31 @@
-/* Esto es otra prueba.. */
+h1, h3, h4 {
+    color: purple;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.text-blue {
+    border: 1px solid #1990cb !important;
+    padding: 5px;
+    border-radius: 20px;
+    color: #1990cb;
+}
+
+.text-blue:hover, .text-blue:focus {
+    border: 1px solid white !important;
+    background-color: #3dade4;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+#apellido{
+    background-color: #1be1ca !important;
+}
